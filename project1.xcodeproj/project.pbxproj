@@ -10,9 +10,28 @@
 		0777EFAD23C487FD00E328F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777EFAC23C487FD00E328F3 /* AppDelegate.swift */; };
 		0777EFAF23C487FD00E328F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777EFAE23C487FD00E328F3 /* ViewController.swift */; };
 		0777EFB223C487FD00E328F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0777EFB023C487FD00E328F3 /* Main.storyboard */; };
-		0777EFB523C487FD00E328F3 /* project1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0777EFB323C487FD00E328F3 /* project1.xcdatamodeld */; };
 		0777EFB723C4880100E328F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0777EFB623C4880100E328F3 /* Assets.xcassets */; };
 		0777EFBA23C4880100E328F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0777EFB823C4880100E328F3 /* LaunchScreen.storyboard */; };
+		07CE046D23C5B550002E319E /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE046C23C5B550002E319E /* loginViewController.swift */; };
+		07CE046F23C5B89C002E319E /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE046E23C5B89C002E319E /* ChoiceViewController.swift */; };
+		07CE047323C5BBB6002E319E /* activitychoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CE047223C5BBB6002E319E /* activitychoiceViewController.swift */; };
+		772E6AE223C74F94003CA84D /* ChoiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E6AE123C74F94003CA84D /* ChoiceTableViewCell.swift */; };
+		7749558D23C823E200370861 /* PlantripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749558C23C823E200370861 /* PlantripViewController.swift */; };
+		7749558F23C8378200370861 /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749558E23C8378200370861 /* detailsViewController.swift */; };
+		7749559123C87E7000370861 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749559023C87E7000370861 /* SignupViewController.swift */; };
+		7749559323C8800400370861 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749559223C8800400370861 /* HomeViewController.swift */; };
+		7749559523C8845600370861 /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7749559423C8845600370861 /* welcomeViewController.swift */; };
+		7749559823C8A00000370861 /* project1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0777EFB323C487FD00E328F3 /* project1.xcdatamodeld */; };
+		FC437FF523C9A9A700FE9B25 /* createtripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC437FF423C9A9A700FE9B25 /* createtripViewController.swift */; };
+		FC437FF923C9BA4900FE9B25 /* persistancefile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC437FF823C9BA4900FE9B25 /* persistancefile.swift */; };
+		FC43800423C9BF3F00FE9B25 /* Trip+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43800223C9BF3F00FE9B25 /* Trip+CoreDataClass.swift */; };
+		FC43800523C9BF3F00FE9B25 /* Trip+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43800323C9BF3F00FE9B25 /* Trip+CoreDataProperties.swift */; };
+		FC43800C23C9E18A00FE9B25 /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43800A23C9E18A00FE9B25 /* Users+CoreDataClass.swift */; };
+		FC43800D23C9E18A00FE9B25 /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43800B23C9E18A00FE9B25 /* Users+CoreDataProperties.swift */; };
+		FC43800F23CA06C400FE9B25 /* createTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43800E23CA06C400FE9B25 /* createTableViewCell.swift */; };
+		FC43801123CA1AE100FE9B25 /* viewactivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43801023CA1AE100FE9B25 /* viewactivitiesViewController.swift */; };
+		FC43801423CA244300FE9B25 /* activityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43801323CA244300FE9B25 /* activityTableViewCell.swift */; };
+		FC43801623CA3E5B00FE9B25 /* customtabbarcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC43801523CA3E5A00FE9B25 /* customtabbarcontroller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +43,25 @@
 		0777EFB623C4880100E328F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0777EFB923C4880100E328F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0777EFBB23C4880100E328F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CE046C23C5B550002E319E /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		07CE046E23C5B89C002E319E /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		07CE047223C5BBB6002E319E /* activitychoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activitychoiceViewController.swift; sourceTree = "<group>"; };
+		772E6AE123C74F94003CA84D /* ChoiceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTableViewCell.swift; sourceTree = "<group>"; };
+		7749558C23C823E200370861 /* PlantripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantripViewController.swift; sourceTree = "<group>"; };
+		7749558E23C8378200370861 /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		7749559023C87E7000370861 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		7749559223C8800400370861 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7749559423C8845600370861 /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		FC437FF423C9A9A700FE9B25 /* createtripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createtripViewController.swift; sourceTree = "<group>"; };
+		FC437FF823C9BA4900FE9B25 /* persistancefile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = persistancefile.swift; sourceTree = "<group>"; };
+		FC43800223C9BF3F00FE9B25 /* Trip+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Trip+CoreDataClass.swift"; path = "project1/Trip+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FC43800323C9BF3F00FE9B25 /* Trip+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Trip+CoreDataProperties.swift"; path = "project1/Trip+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FC43800A23C9E18A00FE9B25 /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FC43800B23C9E18A00FE9B25 /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FC43800E23CA06C400FE9B25 /* createTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createTableViewCell.swift; sourceTree = "<group>"; };
+		FC43801023CA1AE100FE9B25 /* viewactivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewactivitiesViewController.swift; sourceTree = "<group>"; };
+		FC43801323CA244300FE9B25 /* activityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activityTableViewCell.swift; sourceTree = "<group>"; };
+		FC43801523CA3E5A00FE9B25 /* customtabbarcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customtabbarcontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +78,10 @@
 		0777EFA023C487FC00E328F3 = {
 			isa = PBXGroup;
 			children = (
+				FC43800A23C9E18A00FE9B25 /* Users+CoreDataClass.swift */,
+				FC43800B23C9E18A00FE9B25 /* Users+CoreDataProperties.swift */,
+				FC43800223C9BF3F00FE9B25 /* Trip+CoreDataClass.swift */,
+				FC43800323C9BF3F00FE9B25 /* Trip+CoreDataProperties.swift */,
 				0777EFAB23C487FD00E328F3 /* project1 */,
 				0777EFAA23C487FD00E328F3 /* Products */,
 			);
@@ -56,7 +98,11 @@
 		0777EFAB23C487FD00E328F3 /* project1 */ = {
 			isa = PBXGroup;
 			children = (
+				FC43801223CA1AFF00FE9B25 /* Tableviewcells */,
+				07AECA8E23C5E50F00E3136E /* viewcontrollers */,
 				0777EFAC23C487FD00E328F3 /* AppDelegate.swift */,
+				FC43801523CA3E5A00FE9B25 /* customtabbarcontroller.swift */,
+				FC437FF823C9BA4900FE9B25 /* persistancefile.swift */,
 				0777EFAE23C487FD00E328F3 /* ViewController.swift */,
 				0777EFB023C487FD00E328F3 /* Main.storyboard */,
 				0777EFB623C4880100E328F3 /* Assets.xcassets */,
@@ -65,6 +111,33 @@
 				0777EFB323C487FD00E328F3 /* project1.xcdatamodeld */,
 			);
 			path = project1;
+			sourceTree = "<group>";
+		};
+		07AECA8E23C5E50F00E3136E /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				07CE046C23C5B550002E319E /* loginViewController.swift */,
+				7749558C23C823E200370861 /* PlantripViewController.swift */,
+				07CE046E23C5B89C002E319E /* ChoiceViewController.swift */,
+				07CE047223C5BBB6002E319E /* activitychoiceViewController.swift */,
+				7749558E23C8378200370861 /* detailsViewController.swift */,
+				7749559023C87E7000370861 /* SignupViewController.swift */,
+				7749559223C8800400370861 /* HomeViewController.swift */,
+				7749559423C8845600370861 /* welcomeViewController.swift */,
+				FC43801023CA1AE100FE9B25 /* viewactivitiesViewController.swift */,
+				FC437FF423C9A9A700FE9B25 /* createtripViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		FC43801223CA1AFF00FE9B25 /* Tableviewcells */ = {
+			isa = PBXGroup;
+			children = (
+				FC43800E23CA06C400FE9B25 /* createTableViewCell.swift */,
+				772E6AE123C74F94003CA84D /* ChoiceTableViewCell.swift */,
+				FC43801323CA244300FE9B25 /* activityTableViewCell.swift */,
+			);
+			path = Tableviewcells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +172,7 @@
 				TargetAttributes = {
 					0777EFA823C487FD00E328F3 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -138,9 +212,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0777EFB523C487FD00E328F3 /* project1.xcdatamodeld in Sources */,
+				FC43801623CA3E5B00FE9B25 /* customtabbarcontroller.swift in Sources */,
+				7749558D23C823E200370861 /* PlantripViewController.swift in Sources */,
+				07CE047323C5BBB6002E319E /* activitychoiceViewController.swift in Sources */,
+				FC43800523C9BF3F00FE9B25 /* Trip+CoreDataProperties.swift in Sources */,
+				7749559123C87E7000370861 /* SignupViewController.swift in Sources */,
+				772E6AE223C74F94003CA84D /* ChoiceTableViewCell.swift in Sources */,
+				FC43800423C9BF3F00FE9B25 /* Trip+CoreDataClass.swift in Sources */,
+				07CE046D23C5B550002E319E /* loginViewController.swift in Sources */,
+				FC437FF923C9BA4900FE9B25 /* persistancefile.swift in Sources */,
+				07CE046F23C5B89C002E319E /* ChoiceViewController.swift in Sources */,
+				7749559323C8800400370861 /* HomeViewController.swift in Sources */,
+				FC43800D23C9E18A00FE9B25 /* Users+CoreDataProperties.swift in Sources */,
 				0777EFAF23C487FD00E328F3 /* ViewController.swift in Sources */,
+				7749559523C8845600370861 /* welcomeViewController.swift in Sources */,
+				7749559823C8A00000370861 /* project1.xcdatamodeld in Sources */,
+				FC43800F23CA06C400FE9B25 /* createTableViewCell.swift in Sources */,
+				7749558F23C8378200370861 /* detailsViewController.swift in Sources */,
+				FC43801423CA244300FE9B25 /* activityTableViewCell.swift in Sources */,
+				FC43801123CA1AE100FE9B25 /* viewactivitiesViewController.swift in Sources */,
+				FC43800C23C9E18A00FE9B25 /* Users+CoreDataClass.swift in Sources */,
 				0777EFAD23C487FD00E328F3 /* AppDelegate.swift in Sources */,
+				FC437FF523C9A9A700FE9B25 /* createtripViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = project1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,6 +386,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Namatirai.project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = project1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
